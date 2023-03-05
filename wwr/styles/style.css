@@ -217,6 +217,50 @@ nav{
 #hero-msg h1 {
     color: white;
 }
+#river-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#salmon-river{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    
+}
+#img-salmon{
+    width: 100%;
+}
+#utah-river{
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+#img-utah{
+    width: 100%;
+}
+#az-river{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    
+}
+#img-az{
+    width: 100%;
+    margin-top: 30px;
+}
+#rivers_title{
+    text-align: center;
+}
+#text_salmon{
+    grid-column: 6/8;
+    grid-row: 1/2;
+}
+#text_utah{
+    grid-column: 6/8;
+    grid-row: 2/3;
+}
+#text_az{
+    grid-column: 6/8;
+    grid-row: 3/4;
+}
 
 @media screen and (max-width: 900px) {
    #hero, home-grid {
