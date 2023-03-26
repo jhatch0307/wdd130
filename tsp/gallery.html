@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The World Through Your Eyes|Home</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <script defer src="tsp.js"></script>
+    
     
 
 </head>
@@ -15,57 +18,97 @@
     <div id="content">
     <header>
         <a id="logo_link" href="./phome.html"></a>
-        <img class="logo" src="./images/twtye.jpg" alt="TWTYE Logo">
+        <img class="logo" src="https://media.istockphoto.com/illustrations/eye-on-the-world-illustration-id165588991?k=6&m=165588991&s=612x612&w=0&h=aA1cOxYVEujjA5RcuGZqx3UsBoUfYH5eXOMyCvqCGJM=" alt="TWTYE Logo">
 
         <nav>
             <a href="phome.html">Home</a>
-            <a href="rivers.html">Memories</a>
+            <a href="memories.html">Memories</a>
             <a href="site-plan.html">Site Plan</a>
             <a href="contactus.html">Gallery</a>
         </nav>
     </header>
     
-    <main class="home-grid">
-    
-            <div id="gallery">
-                <img src="./images/a343.JPG" alt="Mexico Adventure">
-                <img src="./images/0107.jpg" alt="image 2">
-                <img src="./images/IMG_0027.JPG" alt="image 3">
-                <img src="./images/IMG_0201.JPG" alt="image 4">
-                <img src="./images/0203.JPG" alt="image 5">
-                <img src="./images/IMG_0390.jpg" alt="image 6">
-                <img src="./images/IMG_0534.jpg" alt="image 7">
-                <img src="./images/IMG_0769.jpg" alt="image 8">
-                <img src="./images/IMG_0800.jpg" alt="image 9">
-                <img src="./images/IMG_0876.jpg" alt="image 10">
-                <img src="./images/IMG_1065.jpg" alt="image 11">
-                <img src="./images/IMG_1113.JPG" alt="image 12">
-                <img src="./images/IMG_1168.jpg" alt="image 13">
-                <img src="./images/IMG_1193.jpg" alt="image 14">
-                <img src="./images/IMG_1219.jpg" alt="image 15">
-                <img src="./images/IMG_1231.jpg" alt="image 16">
-                <img src="./images/IMG_1247.jpg" alt="image 17">
-                <img src="./images/IMG_1884.jpg" alt="image 18">
-                <img src="./images/IMG_2690.jpg" alt="image 19">
-                <img src="./images/IMG_3398.JPG" alt="image 20">
-                <img src="./images/IMG_3834.jpg" alt="image 21">
-                <img src="./images/IMG_4128.jpg" alt="image 22">
-                <img src="./images/IMG_8135.jpg" alt="image 23">
-                <img src="./images/IMG_8420.jpg" alt="image 24">
+    <main>
+        <div class="container"></div>
+           
+
+            <div class="mySlides">
+                <div class="numbertext">1/6</div>
+                <img src="./images/IMG_0027.JPG" style="width:100%;"  alt="Mexico">
             </div>
+              
+            <div class="mySlides">
+                <div class="numbertext">2/6</div>
+                <img src="./images/Maybe.jpg" style="width:100%"  alt="Trevi Fountain">
+            </div>    
             
+            <div class="mySlides">
+                <div class="numbertext">3/6</div>
+                <img src="./images/IMG_1065.jpg"  style="width:100%" alt="Milan Duomo">
+            </div> 
+
+            <div class="mySlides">
+                <div class="numbertext">4/6</div>
+                <img src="./images/IMG_1219.jpg"  style="width:100%" alt="Lake Como">
+            </div>
+                    
+            <div class="mySlides">
+                <div class="numbertext">5/6</div>
+                <img src="./images/IMG_1247.jpg" style="width:100%" alt="Venice">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6/26</div>
+                <img src="./images/IMG_8420.jpg" style="width:100%" alt="Cabo">
+            </div>
+
+                  
+           
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
     
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" src="./images/IMG_0027.JPG"  onclick="currentSlide(3)" alt="Mexico">
+                </div>
+
+                <div class="column">
+                    <img class="unique" style="width:100%" src="./images/Maybe.jpg"  onclick="currentSlide(8)" alt="Trevi Fountain">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" src="./images/IMG_1065.jpg"  onclick="currentSlide(11)" alt="Milan Duomo">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" src="./images/IMG_1219.jpg"  onclick="currentSlide(15)" alt="Lake Como">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" src="./images/IMG_1247.jpg"  onclick="currentSlide(17)" alt="Venice">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" src="./images/IMG_8420.jpg"  onclick="currentSlide(24)" alt="Cabo">
+                </div>
+
+        
+          
         
         <section class="msg">
-            <h2>Time to relieve your trip!</h2>
+            <h2>Time to relive your trip!</h2>
             <p>Revisit all your favorite places by viewing all of your amazing photos from trips in one spot. Sightseeing has never been easier!</p>
             
         </section>
     </main>
     <footer>
-        <p>The World Through Your Eyes &copy; 2023-Julia Hatch</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
+    <p>The World Through Your Eyes &copy; 2023-Julia Hatch</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="tspcontact.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img width="100" src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
